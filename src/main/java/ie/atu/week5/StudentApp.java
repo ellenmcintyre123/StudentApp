@@ -40,5 +40,6 @@ public class StudentApp {
         studApp2.setCourse(course2);
         System.out.println("The course you entered is: " + studApp2.getCourse());
 
+        Student studApp3 = new Student( name: Ellen, email: G00389482@atu.ie, course: computers );
     }
 }
