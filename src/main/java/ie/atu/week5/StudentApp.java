@@ -40,6 +40,8 @@ public class StudentApp {
         studApp2.setCourse(course2);
         System.out.println("The course you entered is: " + studApp2.getCourse());
 
-        Student studApp3 = new Student( name: Ellen, email: G00389482@atu.ie, course: computers );
+        Student studApp3 = new Student( "Ellen", "G00389482@atu.ie", "computers" );
+        System.out.println("The name you entered is: " + studApp3.getName() + "\nThe email you entered is: " + studApp3.getEmail() + "\nThe course you entered is: " + studApp3.getCourse());
+
     }
 }
